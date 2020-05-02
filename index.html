@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Todo List
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="todo.js"></script>
+    </head> 
+    <body>
+        <div class="todoContainer">
+            <h1 class="todoHeader">Todo List</h1>
+            <input class="todoInputText" type="text" value="Type here"> <!-- хотелось бы сделать так: ввод текста, enter - этот самый текст добавляется к списку ниже -->
+                <div class="todoItemsContainer">
+                    <ul class="todoItems">                     
+                        <li>First Item</li>                    
+                        <li>Second Item</li>
+                        <li>Third Item</li>
+                        <li>Fourth Item</li>              
+                    </ul>
+                </div>  
+                <button class="button">All</button> <!-- все записи -->
+                <button class="button">Active</button> <!-- активные/текущие записи -->
+                <button class="button">Completed</button> <!-- выполненные записи (планируется зачеркивать такие к хуям) -->          
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,67 @@
+html * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.todoContainer {
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 500px;
+    height: 500px;
+    background-color: #dbf0f9; 
+  
+}
+
+.todoHeader {
+    text-align: center;
+    color: indigo;
+}
+
+.todoInputText {
+    width: 350px;
+    font-size: 24px;
+    color: grey;
+    text-align: center;
+    object-position: center;
+    position: fixed;
+    margin-left: 75px; /* говнокод в деле */
+    
+}
+
+.todoItemsContainer {
+    border: 1px solid white;
+    width: 400px;
+    height: 250px;
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 0 2px black;
+    overflow: auto;
+}
+
+.todoItems {
+    list-style-type: none;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: white;; 
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: darkslategray;
+    padding: 3px 22px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 55px;
+
+  }
+
