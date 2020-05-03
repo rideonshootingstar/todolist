@@ -2,7 +2,7 @@ html * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 
-.todoContainer {
+.todo-container {
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
@@ -14,12 +14,12 @@ html * {
   
 }
 
-.todoHeader {
+.todo-header {
     text-align: center;
     color: indigo;
 }
 
-.todoInputText {
+.todo-input-text {
     width: 350px;
     font-size: 24px;
     color: grey;
@@ -30,7 +30,7 @@ html * {
     
 }
 
-.todoItemsContainer {
+.todo-items-container {
     border: 1px solid white;
     width: 400px;
     height: 250px;
@@ -42,7 +42,7 @@ html * {
     overflow: auto;
 }
 
-.todoItems {
+.todo-items {
     list-style-type: none;
     font-style: italic;
     font-size: 20px;
