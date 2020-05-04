@@ -1,2 +1,2 @@
-# todolist
-test
+# TodoList
+учим хтмл ксс и жс, ебашим всратый todolist для практики
