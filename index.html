@@ -4,24 +4,22 @@
             Todo List
         </title>
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <script src="todo.js"></script>
+        
     </head> 
     <body>
         <div class="todo-container">
             <h1 class="todo-header">Todo List</h1>
-            <input class="todo-input-text" type="text" value="Type here" id="add"> <!-- хотелось бы сделать так: ввод текста, enter - этот самый текст добавляется к списку ниже -->
+            <form>
+                <input class="todo-input-text" type="text" placeholder="Type here" id="add">
+            </form>
                 <div class="todo-items-container">
-                    <ul class="todo-items">                     
-                        <li>First Item</li>                    
-                        <li>Second Item</li>
-                        <li>Third Item</li>
-                        <li>Fourth Item</li>              
+                    <ul class="todo-items" id="items">                                                          
                     </ul>
                 </div>  
-                <button class="button">All</button> <!-- все записи -->
-                <button class="button">Active</button> <!-- активные/текущие записи -->
-                <button class="button">Completed</button> <!-- выполненные записи (планируется зачеркивать такие к хуям) -->          
+                <button class="button">Active</button> <!-- все записи -->
+                <button class="button">Completed</button> <!-- активные/текущие записи -->
+                <button class="button">Clear all</button> <!-- выполненные записи (планируется зачеркивать такие к хуям) -->          
         </div>
-        
+        <script src="todo.js"></script>   
     </body>
 </html> <!-- test -->
